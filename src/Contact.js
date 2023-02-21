@@ -211,7 +211,7 @@ class Contact extends Component{
 
                 </div>
                 <p className="aboutDescFont contactTitle text-center text-white p-5 pb-0 m-0">
-                    <strong>All Rights Reserved &copy; Oliver Wahome Nderitu 2021</strong>
+                    <strong>All Rights Reserved &copy; Oliver Wahome Nderitu {new Date().getFullYear()}</strong>
                 </p> 
             </div>
         )
