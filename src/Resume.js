@@ -159,9 +159,9 @@ class Resume extends Component{
                         <div className="row">
                             <div className="col-sm-6 p-2">
                                 <EducationBadge 
-                                    imgSource={"/img/uctLogo.png"} 
-                                    eduHeader={"University of Cape Town (2022)"}
-                                    eduBody={"Bachelor of Science in Computer Science and Computer Engineering"}
+                                    imgSource={"https://ubunifucollege.com/assets/images/logo-main-black.png"} 
+                                    eduHeader={"Ubunifu College (2023)"}
+                                    eduBody={"Certificate for Full Stack Software Development"}
                                     eduStyle={eduBadgeDark}
                                 />
                             </div>
