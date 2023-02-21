@@ -22,8 +22,8 @@ class About extends Component{
                             </p>
                             <p className="aboutDescFont rounded p-2 m-0"> 
                                 I am passionate about programming and particularly interested in using technology to solve
-                                real-world problems. I am currently focused on web and mobile development with the
-                                short-term goal of improving my back-end skills. In the long run, I intend to delve into
+                                real-world problems. I am currently focused on frontend and backend development with the
+                                short-term goal of improving my mobile development skills. In the long run, I intend to delve into
                                 Artificial Intelligence.
                             </p>
                                 
