@@ -195,14 +195,14 @@ class Contact extends Component{
                             </div>
                             <div className="row">
                                 {/*Phone Contact Section */}
-                                <div className="col-12 pt-3 text-center">
+                                {/* <div className="col-12 pt-3 text-center">
                                     <div className="contactNumberFont p-0 text-white">
                                         Kenyan Number: +254 708084974
                                     </div>
                                     <div className="contactNumberFont p-0 text-white">
                                         South African Number: +27 723729234
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         
