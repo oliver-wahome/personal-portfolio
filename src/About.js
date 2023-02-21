@@ -21,12 +21,10 @@ class About extends Component{
                                 I'm a Full Stack Software Developer with advanced frontend and backend skills
                             </p>
                             <p className="aboutDescFont rounded p-2 m-0"> 
-                                Over the years I have gained an insatiable thirst to program and learn. 
-                                This is why I consider myself a codaholic. I need my daily hit of code.
-                                Currently focused on web and mobile development with the short-term goal of improving
-                                my backend skills.
-                                Intending within the next 5 years to delve into the fields of 
-                                Artificial Intelligence, Data Science and CyberSecurity.   
+                                I am passionate about programming and particularly interested in using technology to solve
+                                real-world problems. I am currently focused on web and mobile development with the
+                                short-term goal of improving my back-end skills. In the long run, I intend to delve into
+                                Artificial Intelligence.
                             </p>
                                 
                         </div>
