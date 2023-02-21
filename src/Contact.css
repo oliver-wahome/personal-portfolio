@@ -1,0 +1,26 @@
+.contactBackground{
+    margin:0;
+    padding:0;
+    padding-bottom: 30px;
+    background: url("./img/contactBack8.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.contact{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid cornsilk;
+    position: relative;
+    width: 90%;
+    left: 5%;
+    min-height: 75vh;
+}
+.contactTitle{
+    position: relative;
+    z-index: 1;
+}
+.inputLabelStyle{
+    position: absolute;
+    bottom: 10px;
+}

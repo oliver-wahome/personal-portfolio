@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.mainFont{
+    font-family: 'Audiowide', cursive;
+}
+.aboutTitleFont{
+    font-family: 'Audiowide', cursive;
+    line-height: 1.6;
+    font-size: 28px;
+}
+.aboutDescFont{
+    font-family: 'Oswald', cursive;
+    line-height: 1.6;
+    font-size: 20px;
+}
+.projectTitleTextFont{
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+}
+.projectDescTextFont{
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+}
+.skillTextFont{
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+}
+.eduTitleTextFont{
+    font-family: 'Staatliches', cursive;
+    font-size: 19px;
+}
+.eduDescTextFont{
+    font-family: 'Staatliches', cursive;
+    font-size: 16px;
+}
+.hobTitleFont{
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+}
+.buttonFont{
+    font-family: 'Staatliches', cursive;
+    font-size: 17px;
+}
+.contactNumberFont{
+    font-family: 'Staatliches', cursive;
+    font-size: 21px;
+}
+.formLabelFont{
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+}
+.formInputFont{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}

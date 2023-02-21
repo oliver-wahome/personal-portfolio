@@ -1,0 +1,29 @@
+.aboutBack{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 30px;
+    background: transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 60vh;
+}
+.about{
+    z-index: 1;
+    position: relative;
+    width: 90%;
+}
+.aboutTitle{
+    color: #8663e2;
+    border-bottom: 2px solid #8663e2;
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+.aboutImageSection{
+    border: none;
+    padding: 20px;
+}
+.aboutImage{
+    border: 2px solid black;
+}

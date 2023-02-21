@@ -1,0 +1,53 @@
+.resumeBackground{
+    margin:0;
+    padding: 0;
+    padding-bottom: 30px;
+    background: transparent;
+    background-size: cover;
+    min-height:100vh;
+    width: 100%;
+}
+.resume{
+    position: relative;
+    border: 2px solid black;
+    width: 90%;
+    left: 5%;
+}
+.resumeTitle{
+    position: relative;
+    color: #8663e2;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #8663e2;
+    width: 80%;
+    left: 10%;
+}
+.b_skill{
+    background-color: rgb(134, 99, 226, 0.4);
+    color: black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.l_skill{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.resumeButton{
+    background-color: #8663e2;
+    border: 2px solid#8663e2;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+.resumeButton:hover{
+    color: #8663e2;
+    background-color: transparent;
+    border: 2px solid #8663e2;
+}
+.resumeButton:active{
+    color: black;
+    border: 2px solid #8663e2;
+}

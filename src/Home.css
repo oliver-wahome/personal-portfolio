@@ -1,0 +1,58 @@
+.home{
+    margin:0;
+    padding: 0;
+    background: url('./img/backImg5.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    position: relative;
+    z-index: 1;
+}
+.navbar{
+    margin:0;
+    padding:0;
+    position: relative;
+    top: 25%;
+}
+.navButton{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+.navButton:hover{
+    color: #8663e2;
+    border-bottom: 2px solid #8663e2;
+}
+.navButton:active{
+    color: #8663e2;
+    border: 2px solid #8663e2;
+}
+.header{
+    margin:0;
+    padding: 0;
+    z-index: 1;
+    border: 2px solid white;
+    border-top: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 80vh;
+    width: 100%;
+    
+}
+.imgSection{
+    margin-bottom: 5px;
+    position: relative;
+    top: 20vh;
+    color: white;
+    
+}
+.about{
+    margin-top: 10px;
+
+}
