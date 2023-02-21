@@ -183,7 +183,7 @@ class Resume extends Component{
                     <div className="bg-dark m-2" style={{height: "2px"}}></div>
 
                     <div className="text-center p-3">
-                        <form method="get" action="OliverNderituResume2021.pdf" target="_blank">
+                        <form method="get" action="Oliver_CV_29Sep2022.pdf" target="_blank">
                             <button type="submit" className="buttonFont resumeButton m-2">
                                 Download Resume PDF
                             </button>
