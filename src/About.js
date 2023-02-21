@@ -18,7 +18,7 @@ class About extends Component{
                         </div>
                         <div className="col-sm-6">
                             <p className="aboutTitleFont rounded p-2 m-0" >
-                                I'm a Kenyan Computer Science student with advanced web and mobile development skills
+                                I'm a Full Stack Software Developer with advanced frontend and backend skills
                             </p>
                             <p className="aboutDescFont rounded p-2 m-0"> 
                                 Over the years I have gained an insatiable thirst to program and learn. 
