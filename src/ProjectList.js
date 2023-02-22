@@ -8,13 +8,25 @@ class ProjectList extends Component{
     constructor(){
         super();
         this.state = {
-            imageSource: ['/img/golfscorecardImg.png', '/img/pwdgeneratorImg.png', '/img/poloforestImg.png', '/img/familyChores1.png'],
-            projectTitle: ['GOLF SCORECARD APPLICATION', 'PASSWORD GENERATOR', 'POLO FOREST WEBSITE', 'FAMILY CHORES APPLICATION'],
+            //previous project list
+            // imageSource: ['/img/golfscorecardImg.png', '/img/pwdgeneratorImg.png', '/img/poloforestImg.png', '/img/familyChores1.png'],
+            // projectTitle: ['GOLF SCORECARD APPLICATION', 'PASSWORD GENERATOR', 'POLO FOREST WEBSITE', 'FAMILY CHORES APPLICATION'],
+            // projectInfo: [
+            // 'The application enables users to input their strokes and automatically calculate their scores while playing a round of golf.',
+            // 'The application generates various strengths of passwords from keywords input by the user.',
+            // 'This is a website for a recreational facility in India.',
+            // 'Family Chores helps different groups of people organise chores amongst themselves on a weekly basis.',
+            // ]
+
+
+            //new project list
+            imageSource: ['/img/brokerThumbnail.png', '/img/d-agencyThumbnail.png', '/img/golfscorecardThumbnail.png', '/img/ubunifuThumbnail.png'],
+            projectTitle: ['BROKER', 'DIGITAL AGENCY WEBSITE', 'GOLF SCORECARD WEB APPLICATION', 'UBUNIFU WEBSITE CLONE'],
             projectInfo: [
-            'The application enables users to input their strokes and automatically calculate their scores while playing a round of golf.',
-            'The application generates various strengths of passwords from keywords input by the user.',
-            'This is a website for a recreational facility in India.',
-            'Family Chores helps different groups of people organise chores amongst themselves on a weekly basis.',
+            'Broker is a financial management system created to assist freelancers and self-employed entrepreneurs manage and track their finances.',
+            'This is a website designed and created for a digital agency company.',
+            'This application stores and calculates golfers\' scores while playing a round of golf. Players can then download the scorecard as a png to their device.',
+            'This is a clone of the main Ubunifu College website',
             ]
         }
     }
@@ -46,7 +58,7 @@ class ProjectList extends Component{
                     <div className="project container">                        
                         <div className="projectSection row">
                             <div className="col-md-3 h-100 py-3">
-                                <a href="https://golfscorecard-e6785.web.app/" style={noDecor} target="_blank" rel="noreferrer">
+                                <a href="https://broker-1b177.web.app/" style={noDecor} target="_blank" rel="noreferrer">
                                     <ProjectSummaryImgFirst imageSource ={this.state.imageSource[0]} 
                                                 projectTitle={this.state.projectTitle[0]} 
                                                 projectInfo={this.state.projectInfo[0]}
@@ -55,7 +67,7 @@ class ProjectList extends Component{
                                 </a>
                             </div>
                             <div className="col-md-3 h-100 py-3">
-                                <a href="https://pwdgenerator-8333e.web.app/" style={noDecor} target="_blank" rel="noreferrer">
+                                <a href="https://digitalagency-bc742.web.app/" style={noDecor} target="_blank" rel="noreferrer">
                                     <ProjectSummaryTextFirst imageSource ={this.state.imageSource[1]} 
                                                 projectTitle={this.state.projectTitle[1]} 
                                                 projectInfo={this.state.projectInfo[1]}
@@ -64,7 +76,7 @@ class ProjectList extends Component{
                                 </a>
                             </div>
                             <div className="col-md-3 h-100 py-3">
-                                <a href="https://poloforest-8be95.web.app/" style={noDecor} target="_blank" rel="noreferrer">
+                                <a href="https://golfscorecard-e6785.web.app/" style={noDecor} target="_blank" rel="noreferrer">
                                     <ProjectSummaryImgFirst imageSource ={this.state.imageSource[2]} 
                                                 projectTitle={this.state.projectTitle[2]} 
                                                 projectInfo={this.state.projectInfo[2]}
@@ -73,7 +85,7 @@ class ProjectList extends Component{
                                 </a>
                             </div>
                             <div className="col-md-3 h-100 py-3">
-                                <a href="https://familychores-1efa9.web.app/" style={noDecor} target="_blank" rel="noreferrer">
+                                <a href="https://oliver-wahome.github.io/ubunifucollegeClone/" style={noDecor} target="_blank" rel="noreferrer">
                                     <ProjectSummaryTextFirst imageSource ={this.state.imageSource[3]} 
                                                 projectTitle={this.state.projectTitle[3]} 
                                                 projectInfo={this.state.projectInfo[3]}
