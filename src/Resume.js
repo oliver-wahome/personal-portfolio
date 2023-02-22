@@ -77,19 +77,20 @@ class Resume extends Component{
                             <div className="row">
                                 <div className="col-sm-6">
                                     <div className="row">
+
+                                        <div className="col-6">
+                                            {/*Node js section */}
+                                            <SkillsBadge 
+                                                badgeId={"b_skill"} imgSource={"https://cdn-icons-png.flaticon.com/512/5968/5968322.png"} 
+                                                imgAlt={"nodejs"} proficiency={"85"} experience={"2"}
+                                            />
+                                        </div>
+
                                         <div className="col-6">
                                             {/*Bootstrap section */}
                                             <SkillsBadge 
-                                                badgeId={"b_skill"} imgSource={"/img/bootstrapLogo.png"} 
-                                                imgAlt={"bootstrap"} proficiency={"85"} experience={"2"}
-                                            />
-                                        </div>
-                                        
-                                        <div className="col-6">
-                                            {/*Firebase section */}
-                                            <SkillsBadge 
-                                                badgeId={"l_skill"} imgSource={"/img/firebaseLogo.png"} 
-                                                imgAlt={"firebase"} proficiency={"80"} experience={"2"}
+                                                badgeId={"l_skill"} imgSource={"/img/bootstrapLogo.png"} 
+                                                imgAlt={"bootstrap"} proficiency={"85"} experience={"4"}
                                             />
                                         </div>
                                     </div>
@@ -98,18 +99,18 @@ class Resume extends Component{
                                 <div className="col-sm-6">
                                     <div className="row">
                                         <div className="col-6">
-                                            {/*Wordpress section */}
+                                            {/*Firebase section */}
                                             <SkillsBadge 
-                                                badgeId={"b_skill"} imgSource={"/img/wordpressLogo.png"} 
-                                                imgAlt={"wordpress"} proficiency={"75"} experience={"2"}
+                                                badgeId={"b_skill"} imgSource={"/img/firebaseLogo.png"} 
+                                                imgAlt={"firebase"} proficiency={"80"} experience={"2"}
                                             />
                                         </div>
 
                                         <div className="col-6">
-                                            {/*Java section */}
+                                            {/*Wordpress section */}
                                             <SkillsBadge 
-                                                badgeId={"l_skill"} imgSource={"/img/javaLogo.png"} 
-                                                imgAlt={"java"} proficiency={"70"} experience={"5"}
+                                                badgeId={"l_skill"} imgSource={"/img/wordpressLogo.png"} 
+                                                imgAlt={"wordpress"} proficiency={"75"} experience={"2"}
                                             />
                                         </div>
                                     </div>
@@ -122,17 +123,17 @@ class Resume extends Component{
                                 <div className="col-sm-6">
                                     <div className="row">
                                         <div className="col-6">
-                                            {/*C# section */}
+                                            {/*Java section */}
                                             <SkillsBadge 
-                                                badgeId={"b_skill"} imgSource={"/img/csharpLogo.png"} 
-                                                imgAlt={"csharp"} proficiency={"70"} experience={"2"}
+                                                badgeId={"b_skill"} imgSource={"/img/javaLogo.png"} 
+                                                imgAlt={"java"} proficiency={"70"} experience={"5"}
                                             />
                                         </div>
                                         <div className="col-6">
-                                            {/*C section */}
+                                            {/*C# section */}
                                             <SkillsBadge 
-                                                badgeId={"l_skill"} imgSource={"/img/cLogo.png"} 
-                                                imgAlt={"c"} proficiency={"70"} experience={"3"}
+                                                badgeId={"l_skill"} imgSource={"/img/csharpLogo.png"} 
+                                                imgAlt={"csharp"} proficiency={"70"} experience={"2"}
                                             />
                                         </div>
                                     </div>
@@ -140,9 +141,16 @@ class Resume extends Component{
                                 <div className="col-sm-6">
                                     <div className="row">
                                         <div className="col-6">
+                                            {/*C section */}
+                                            <SkillsBadge 
+                                                badgeId={"b_skill"} imgSource={"/img/cLogo.png"} 
+                                                imgAlt={"c"} proficiency={"70"} experience={"3"}
+                                            />
+                                        </div>
+                                        <div className="col-6">
                                             {/*Python section */}
                                             <SkillsBadge 
-                                                badgeId={"b_skill"} imgSource={"/img/pythonLogo.png"} 
+                                                badgeId={"l_skill"} imgSource={"/img/pythonLogo.png"} 
                                                 imgAlt={"python"} proficiency={"65"} experience={"2"}
                                             />
                                         </div>
