@@ -14,7 +14,7 @@ class About extends Component{
                 <div className="container about" >
                     <div className="row justify-content-center align-items-center">
                         <div className="aboutImageSection text-center col-sm-4">
-                            <img className="aboutImage rounded-circle" src="./img/oliverprofpic2.jpg" height="200px" width="200px" alt="..."/>
+                            <img className="aboutImage rounded-circle" src="./img/oliverAbout22Mar2023.jpg" height="200px" width="200px" alt="..."/>
                         </div>
                         <div className="col-sm-6">
                             <p className="aboutTitleFont rounded p-2 m-0" >
