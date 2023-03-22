@@ -29,7 +29,7 @@ class Home extends Component {
                 <div className="home">
                     <div className="header position-relative">
                         <div className="imgSection text-center">
-                            <img src="./img/oliverHome22Mar2023.jpg" id="logo" width="180px"  height="180px" className="rounded-circle" alt="..."/>
+                            <img src="./img/oliverHome22Mar2023.jpg" id="logo" width="180px"  height="180px" className="rounded-circle mb-3" alt="..."/>
                             <h2 id="name" className="mainFont m-0">OLIVER WAHOME</h2>
                             <h6 id="jobTitle" className="mainFont m-0">FULL STACK SOFTWARE DEVELOPER</h6>
                         </div>
